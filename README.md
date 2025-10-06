@@ -66,7 +66,7 @@ Example output:
 
 
 👤 Author
-Developed by Claudio → @clavinci94
+Developed by Claudio
 
 
 

@@ -38,6 +38,36 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+## 🔎 Grad-CAM Visualization
+To visualize class activation maps (heatmaps), uncomment the Grad-CAM section in
+lung_cancer_vgg16_refactor.py:
+```
+sample_img = test_df.iloc[0]["filepaths"]
+cam_path = grad_cam(model, sample_img, layer_name="block5_conv3")
+print(f"Grad-CAM saved to: {cam_path}")
+```
+## 🖥️ Requirements
+Python 3.11+
+TensorFlow 2.16.2 (tensorflow-macos + tensorflow-metal on Apple Silicon)
+numpy, pandas, scikit-learn, matplotlib, seaborn, opencv-python
+
+Install with:
+```
+pip install -r requirements.txt
+```
+📊 Results
+Confusion matrix and classification report are automatically generated.
+Final accuracy depends on dataset split and number of epochs.
+Example output:
+## 📊 Example Result
+
+![Confusion Matrix](artifacts/reports/vgg16_confusion_matrix.png)
+
+
+
+👤 Author
+Developed by Claudio → @clavinci94
+
 
 
 

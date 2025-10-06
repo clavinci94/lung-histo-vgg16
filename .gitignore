@@ -5,3 +5,4 @@ artifacts/
 *.h5
 *.ckpt
 
+.DS_Store

@@ -1,0 +1,23 @@
+# 📂 Data Folder
+
+This folder is used to store the dataset required for training.
+
+## Expected structure
+```
+data/
+lung_image_sets/
+lung_aca/
+*.jpeg / *.png
+lung_scc/
+*.jpeg / *.png
+lung_n/
+*.jpeg / *.png
+  ```
+  - `lung_aca/` → Adenocarcinoma images  
+- `lung_scc/` → Squamous cell carcinoma images  
+- `lung_n/`   → Normal lung tissue images  
+
+## ⚠️ Note
+
+The dataset itself is **not included** in this repository (to keep the repo small and avoid licensing issues).  
+Please download or copy the dataset manually and place it in the structure above before running:

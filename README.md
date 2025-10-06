@@ -61,8 +61,7 @@ Final accuracy depends on dataset split and number of epochs.
 Example output:
 ## 📊 Example Result
 
-![Confusion Matrix](https://github.com/clavinci94/lung-histo-vgg16/blob/main/artifacts/reports/vgg16_confusion_matrix.png?raw=true)
-
+![Confusion Matrix](<img width="1050" height="900" alt="confusion_matrix" src="https://github.com/user-attachments/assets/89efc7bd-5b09-46c4-81c1-f4cb61839e96" />)
 
 
 
